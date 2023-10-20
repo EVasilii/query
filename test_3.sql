@@ -15,6 +15,6 @@ from Vacation as v
 -- Условие, что отпуск обоих сотрудиков попадает в 2020 год
 where v.DateBegin <= '31.12.2020'
 	and v.DateEnd >= '01.01.2020'
-    and v_copy.DateBegin <= '31.12.2020'
-    and v_copy.DateEnd >= '01.01.2020'
+	and v_copy.DateBegin <= '31.12.2020'
+	and v_copy.DateEnd >= '01.01.2020'
             
